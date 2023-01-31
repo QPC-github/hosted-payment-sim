@@ -4,14 +4,11 @@ GEM
     addressable (2.6.0)
       public_suffix (>= 2.0.2, < 4.0)
     byebug (10.0.2)
-    httparty (0.16.3)
-      mime-types (~> 3.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     json (2.1.0)
-    mime-types (3.2.2)
-      mime-types-data (~> 3.2015)
-    mime-types-data (3.2018.0812)
-    minitest (5.11.3)
+    mini_mime (1.1.2)
     multi_xml (0.6.0)
     mustermann (1.0.3)
     power_assert (1.1.1)
@@ -38,7 +35,6 @@ DEPENDENCIES
   byebug
   httparty
   json
-  minitest
   rack-test
   sinatra
   test-unit
